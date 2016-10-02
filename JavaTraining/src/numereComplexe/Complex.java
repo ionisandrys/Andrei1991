@@ -8,14 +8,12 @@ package numereComplexe;
    /**
  * This class creates a complex number, and allows me to do arithmetic
  * operations with these numbers.
- 
- * My complex numbers are immutable. That is, once they are 
- * constructed, they will not change. 
+  
  */
 public final class Complex {
     // The number is represented by this form: X+i*Y.
     public final double x, y;
-    // I allow anyone to access these numbers so i have used
+    //   I allow anyone to access these numbers so i have used
     //  the public modifier. 
         
     /** The following constructor builds the real and imaginary parts. */
